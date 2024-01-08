@@ -15,7 +15,7 @@ body {
 .container {
     position: absolute;
     width: 90vw;
-    height: 90vh;
+    max-height: 90vh;
     overflow-y: scroll;
     margin: 25vh 4vw;
     padding: 2vh 2vw;
@@ -78,10 +78,18 @@ textarea {
     max-width: 90vw;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 650px) {
     .container {
-
-        height: min-content;
+        position: absolute;
+        width: 90vw;
+        height: 50vh;
+        overflow-y: scroll;
+        margin: 25vh 4vw;
+        padding: 2vh 2vw;
+        background-color: #ffffff48;
+        border-radius: 8px;
+        box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(10px);
 
     }
 }
