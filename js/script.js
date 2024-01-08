@@ -103,7 +103,7 @@ async function displayAlbums() {
                         <div class="play">
                             <img src="https://t3.ftcdn.net/jpg/00/80/56/28/240_F_80562883_PAJJNiVcccBaPnU1ee1vNredJ5mJkYyz.jpg" alt="">
                         </div>
-                        <img src="/song/${folder}/cover.jpeg" alt="">
+                        <img src="/song/${folder}/cover.webp" alt="">
                         <h2>${metadata.title}</h2>
                         <p>${metadata.description}</p>
                     </div>
