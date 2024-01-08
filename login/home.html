@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <title>User Profile with Image Upload</title>
-        <link rel="stylesheet" href="login/styles.css">
+        <link rel="stylesheet" href="styles.css">
     </head>
 
     <body>
@@ -12,7 +12,7 @@
         <div class="container">
             <div class="back">
                 <h1 id="heading">Log in :-</h1>
-                <a href="index.html"><img src="img/main.svg" alt=""></a>
+                <a href="../index.html"><img src="../img/main.svg" alt=""></a>
             </div>
             <div id="form">
                 <form id="userForm" enctype="multipart/form-data" action="index.html">
@@ -21,13 +21,13 @@
                     <input type="file" id="profileImage" accept="image/*">
 
                     <label for="username">Username:</label>
-                    <input type="text" id="username" placeholder="Enter your username">
+                    <input type="text" id="username" placeholder="Enter your username" required>
 
                     <label for="email">Email:</label>
-                    <input type="email" id="email" placeholder="Enter your email">
+                    <input type="email" id="email" placeholder="Enter your email" required>
 
                     <label for="pass">Passwprd:</label>
-                    <input type="password" id="pass" placeholder="Enter your passwprd">
+                    <input type="password" id="pass" placeholder="Enter your passwprd" required>
 
                     <label for="bio">Bio:</label>
                     <textarea id="bio" placeholder="Enter your bio"></textarea>
@@ -42,7 +42,7 @@
 
         </div>
 
-        <script src="login/script.js"></script>
+        <script src="script.js"></script>
     </body>
 
 </html>
