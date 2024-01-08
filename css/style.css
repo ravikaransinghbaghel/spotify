@@ -1,0 +1,444 @@
+body,
+html {
+    background-color: #000;
+    color: #fff;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.containor {
+    display: flex;
+}
+
+.laft {
+    width: 25%;
+    margin: 4px;
+    height: 100%;
+}
+
+.right {
+    width: 75%;
+    margin: 14px;
+}
+
+.bg-gray {
+    background-color: #121212;
+    padding: 7px;
+    margin: 10px;
+    border-radius: 8px;
+
+}
+
+.logo {
+    margin: 20px;
+    width: 200px;
+}
+
+.invert {
+    filter: invert(1);
+    width: 25px;
+}
+
+.pop,
+.pop2 {
+    display: none;
+}
+
+.push {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.sea {
+    margin: 20px;
+    display: flex;
+    gap: 20px;
+}
+
+
+.lib-logo {
+    margin: 20px;
+    display: flex;
+    gap: 20px;
+}
+
+.lebrary {
+    position: relative;
+    height: 70vh;
+}
+
+.gane {
+    overflow-y: scroll;
+    max-height: 50vh;
+}
+
+.gane ul {
+    padding: 5px 10px;
+}
+
+.gane ul li {
+    padding: 10px 15px;
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    border: 2px solid gray;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.play-list {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.playnow {
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+}
+
+.name {
+    padding: 5px;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.music {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    font-size: 14px;
+    position: absolute;
+    bottom: 0px;
+}
+
+.footer a {
+    color: gray;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    min-width: none;
+    padding: 20px 50px;
+    background-color: #343434;
+}
+
+.nav {
+    display: flex;
+    gap: 15px;
+
+}
+
+.button {
+    display: flex;
+    gap: 40px;
+
+}
+
+#sign {
+    color: gray;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 10px 30px;
+    border-radius: 20px;
+    background-color: #343434;
+}
+
+#sign:hover {
+    font-size: 18px;
+}
+
+#login {
+    font-weight: 700;
+    font-size: 16px;
+    padding: 10px 30px;
+    border-radius: 20px;
+    background-color: #fff;
+}
+
+#login:hover {
+    font-size: 18px;
+}
+
+.main {
+    position: relative;
+    margin: 0;
+    background-color: #121212;
+    height: 86vh;
+}
+
+.main h1 {
+    margin-top: 0;
+}
+
+.cards {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 30px;
+    overflow-y: scroll;
+    max-height: 55vh;
+    
+}
+
+.card {
+    position: relative;
+    background-color: #343434;
+    width: 200px;
+    padding: 15px 10px;
+    cursor: pointer;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+
+}
+
+.card img {
+    width: 100%;
+    object-fit: contain;
+}
+
+.play {
+    position: absolute;
+    right: 15px;
+    top: 200px;
+    opacity: 0;
+    transition: all 1s ease-out;
+}
+
+.play img {
+    width: 50px;
+    border-radius: 50%;
+}
+
+.card:hover .play {
+    opacity: 1;
+    transition: all 0.5s ease-out;
+    top: 160px;
+}
+
+.card:hover {
+    background-color: #515050;
+}
+
+/* Scroll bar ka color set karna */
+.cards::-webkit-scrollbar {
+    width: 12px;
+    /* Scroll bar ki width */
+}
+
+/* Scroll bar ka track ka color set karna */
+.cards::-webkit-scrollbar-track {
+    background: #333;
+    /* Dark color */
+}
+
+/* Scroll bar ka thumb ka color set karna */
+.cards::-webkit-scrollbar-thumb {
+    background-color: #555;
+    /* Lighter color */
+    border-radius: 10px;
+    /* Border radius set karna */
+}
+
+/* Scroll bar hover effect ka color set karna */
+.cards::-webkit-scrollbar-thumb:hover {
+    background-color: #777;
+    /* Lighter color on hover */
+}
+
+.play-ber {
+    position: absolute;
+    background-color: #343434;
+    width: 93%;
+    height: fit-content;
+    padding: 3px 0px;
+    bottom: 10px;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+
+}
+
+.play-on {
+    display: flex;
+    gap: 20px;
+}
+
+.play-on img {
+    width: 40px;
+    margin: 10px 0px;
+}
+
+.seekber {
+    /* margin: 3px 0px; */
+    width: 98%;
+    border: 5px solid #fff;
+    bottom: 3px;
+    border-radius: 50px;
+    position: absolute;
+
+}
+
+.circuler {
+    left: -5px;
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: red;
+    top: -5px;
+    transition: left 0.5s;
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+.music-name {
+    /* position: absolute; */
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 40px;
+} 
+.songinfo{
+    width: 25%;
+    height: max-content;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 1200px) {
+    .laft {
+        width: 100%;
+        position: absolute;
+        left: -100%;
+        transition: all 1s;
+        z-index: 1;
+    }
+
+    .right {
+        width: 100vh;
+        margin: 0;
+        padding: 5px;
+    }
+
+    .music-name {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 5%;
+        padding: 10px 4px;
+    }
+
+    .cards {
+        display: flex;
+        gap: 20px;
+        flex-wrap: wrap;
+        padding: 2px 35px;
+        overflow-y: scroll;
+        max-height: 55vh;
+    }
+
+    .header {
+        display: flex;
+        justify-content: space-between;
+        min-width: none;
+        padding: 20px 20px;
+        background-color: #343434;
+    }
+
+    .button {
+        display: flex;
+        gap: 15px;
+    }
+
+    #sign,
+    #login {
+        font-size: 11px;
+        padding: 1px 11px;
+        border-radius: 25px;
+    }
+
+    #login:hover,
+    #sign:hover {
+        font-size: 18px;
+    }
+
+    .main h1 {
+        margin-top: 0;
+        padding: 5px 26px;
+    }
+
+    .cards {
+        display: flex;
+        gap: 20px;
+        flex-wrap: wrap;
+        padding: 2px 40px;
+        overflow-y: scroll;
+        max-height: 44vh;
+    }
+
+    .card {
+        position: relative;
+        background-color: #343434;
+        width: 280px;
+        padding: 16px 10px;
+    }
+
+    .pop,
+    .pop2 {
+        display: block;
+    }
+
+    .laft-icon img,
+    .right-icon img {
+        width: 12px;
+    }
+
+    .logo {
+        /* position: absolute; */
+        width: 100%;
+        margin:auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .play-ber {
+        position: absolute;
+        background-color: #343434;
+        width: 100%;
+        height: 35%;
+        padding: 3px 0px;
+        bottom: 25px;
+        display: flex;
+        justify-content: center;
+        border-radius:10px;
+    }
+    .songinfo{
+        height: max-content;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+}

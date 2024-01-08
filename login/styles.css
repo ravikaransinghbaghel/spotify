@@ -1,0 +1,87 @@
+body {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    background-image: url("background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    position: absolute;
+    width: 90vw;
+    height: 90vh;
+    overflow-y: scroll;
+    margin: 25vh 4vw;
+    padding: 2vh 2vw;
+    background-color: #ffffff48;
+    border-radius: 8px;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+
+}
+
+form {
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 8px;
+    font-size: 25px;
+}
+
+input,
+textarea {
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 25px;
+}
+
+#submit {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#submit:hover {
+    background-color: #0056b3;
+}
+
+#displayProfile {
+    margin-top: 30px;
+    font-size: 25px;
+}
+
+.back img {
+    width: 25px;
+    border: 2px solid black;
+    border-radius: 3px;
+}
+
+.back {
+    /* position: absolute; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 90vw;
+}
+
+@media (max-width: 500px) {
+    .container {
+
+        height: min-content;
+
+    }
+}
