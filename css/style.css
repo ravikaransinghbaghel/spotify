@@ -306,9 +306,9 @@ html {
     transition: left 0.5s;
 }
 
-.cursor {
-    /* cursor: pointer; */
-}
+/* .cursor {
+    cursor: pointer;
+} */
 
 .music-name {
     /* position: absolute; */
