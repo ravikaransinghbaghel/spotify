@@ -87,7 +87,7 @@ html {
     gap: 20px;
     border: 2px solid gray;
     justify-content: space-between;
-    cursor: pointer;
+    /* cursor: pointer; */
 }
 
 .play-list {
@@ -200,7 +200,7 @@ html {
     background-color: #343434;
     width: 200px;
     padding: 15px 10px;
-    cursor: pointer;
+    /* cursor: pointer; */
     /* display: flex;
     flex-direction: column;
     justify-content: center;
@@ -307,7 +307,7 @@ html {
 }
 
 .cursor {
-    cursor: pointer;
+    /* cursor: pointer; */
 }
 
 .music-name {
@@ -531,8 +531,7 @@ textarea {
     .container {
         position: absolute;
         width: 90vw;
-        height: 55vh;
-        bottom: 10vh;
+        height: 90vh;
         overflow-y: scroll;
         margin: 25vh 4vw;
         padding: 2vh 2vw;
